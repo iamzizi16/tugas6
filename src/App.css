@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #4e73df;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background: #4e73df;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2e59d9;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.status {
+  margin-top: 10px;
+  text-align: center;
+  color: #1cc88a;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  color: #666;
+  font-size: 13px;
+}
